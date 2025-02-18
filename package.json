@@ -1,0 +1,25 @@
+{
+  "name": "valorant-stats",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/raimundo-vicuna/valorant-stats#readme",
+  "bugs": {
+    "url": "https://github.com/raimundo-vicuna/valorant-stats/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raimundo-vicuna/valorant-stats.git"
+  },
+  "license": "ISC",
+  "author": "Raimundo Vicuña",
+  "main": "server/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd server && node app.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
